@@ -3,6 +3,10 @@
 Prototype of Rev0 with the ESP32-DevKitC replaced by an ESP32-S3-DevKitC-1 (N16R8) style board,
 such as the dual USB-C "HW-678" clones. Not yet built or tested.
 
+Schematic - [Apple-68k-FujiNet-Rev00-Schematic.pdf](../docs/Apple-68k-FujiNet-Rev00-Schematic.pdf)
+
+![rev00-top.png](../docs/rev00-top.png)
+
 - The board is 15.24mm longer at the USB edge so the longer S3 devkit's USB end sits at the edge,
   as on Rev0. The Pico (with D3, JP1 and R1-R3 under it), S1, C2 and the bottom mounting holes
   moved down with it, so both USB ports stay on that edge; the case needs the same change.
